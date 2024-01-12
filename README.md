@@ -1,8 +1,4 @@
-# React + Vite
+# ToDo-List App
+## Under Construction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Base Template :[[https://www.figma.com/file/YXDkiPV26S6od1RsI4l0w5/ToDo-List-%F0%9F%91%85-(Community)?type=design&node-id=0-1&mode=design&t=PoXdNThZseALLhUF-0]]
