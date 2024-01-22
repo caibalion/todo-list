@@ -45,9 +45,9 @@ export default function NewTask() {
         </button>
       </div>
 
-      <div className="grow basis-auto bg-[#1A1A1A]">
-        <div className="mt-24 w-1/2 absolute top-28 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-          <div className="flex justify-between">
+      <div className="grow basis-auto bg-[#1A1A1A] flex">
+        <div className="m-auto mt-20 w-[726px]">
+          <div className="flex justify-between mb-6">
             <div className="text-[#4EA8DE]">
               Tarefas criadas
               <span className="ml-2 rounded-full bg-[#333333] text-[#D9D9D9] py-[2px] px-2">0</span>
@@ -57,7 +57,7 @@ export default function NewTask() {
               <span className="ml-2 rounded-full bg-[#333333] text-[#D9D9D9] py-[2px] px-2">0</span>
             </div>
           </div>
-          <div>
+          <div className="overflow-y-scroll h-[60dvh]">
             <ul>
               {tasks.map((task, index) => (
                 <Task key={index} text={task} onDelete={() => deleteTask(index)} />
