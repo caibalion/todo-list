@@ -57,7 +57,7 @@ export default function NewTask() {
               <span className="ml-2 rounded-full bg-[#333333] text-[#D9D9D9] py-[2px] px-2">0</span>
             </div>
           </div>
-          <div className="overflow-y-scroll h-[60dvh]">
+          <div className="h-[60dvh]">
             <ul>
               {tasks.map((task, index) => (
                 <Task key={index} text={task} onDelete={() => deleteTask(index)} />
