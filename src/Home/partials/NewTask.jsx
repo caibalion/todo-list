@@ -46,7 +46,7 @@ export default function NewTask() {
       </div>
 
       <div className="grow basis-auto bg-[#1A1A1A] flex">
-        <div className="m-auto mt-20 w-[726px]">
+        <div className="m-auto mt-20 w-[736px]">
           <div className="flex justify-between mb-6">
             <div className="text-[#4EA8DE]">
               Tarefas criadas
