@@ -25,20 +25,21 @@ export default function NewTask() {
 
   return (
     <>
-      <div className="absolute top-28 left-1/2 -translate-x-1/2 -translate-y-1/2 flex">
-        <div>
+      <div className="absolute top-28 left-1/2 -translate-x-1/2 -translate-y-1/2 flex w-[46rem] h-14">
+        <div className="grow-[2]">
           <input
             type="text"
             name="tasks"
             value={taskInput}
+            maxLength={166}
             onChange={(e) => setTaskInput(e.target.value)}
             placeholder="Adicione uma nova tarefa"
-            className="text-[#808080] bg-[#262626] w-[39rem] h-14 rounded-lg border border-[#0D0D0D] p-4 leading-[22.4px]"
+            className="w-full text-[#808080] bg-[#262626]  rounded-lg border border-[#0D0D0D] p-4 leading-[22.4px]"
           />
         </div>
         <button
           onClick={addTask}
-          className="bg-[#1E6F9F] text-[#F2F2F2] p-4 leading-[22.4px] h-14 rounded-lg ml-2 flex font-bold items-center gap-2"
+          className="bg-[#1E6F9F] text-[#F2F2F2] p-4 leading-[22.4px] rounded-lg ml-2 flex font-bold items-center gap-2 self-end"
         >
           Criar
           <FiPlusCircle />
